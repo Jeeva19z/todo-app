@@ -65,9 +65,9 @@ function addtodos(todo){
         newElement.style.textDecoration="line-through";
         newElement.style.color="red";
 
-        removetodo(todo)
-        let pendingtask = todos.length;
-        pendingTaskCount.innerHTML=pendingtask;
+        // removetodo(todo)
+        // let pendingtask = todos.length;
+        // pendingTaskCount.innerHTML=pendingtask;  single click to remove
 
     })
     newElement.addEventListener("dblclick",()=>{
